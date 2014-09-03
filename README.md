@@ -32,13 +32,17 @@ Solves the [zebra problem](http://en.wikipedia.org/wiki/Zebra_Puzzle).
 
 Solves kakuro puzzles.
 
-> Kakuro or Kakkuro (Japanese: カックロ) is a kind of logic puzzle that is often
-> referred to as a  mathematical transliteration of the crossword.
+> Kakuro or Kakkuro (Japanese: カックロ) is a kind of logic puzzle that is often referred to as a  mathematical transliteration of the crossword.
 >
 > [...]
 >
-> The objective of the puzzle is to insert a digit from 1 to 9 inclusive into
-> each white cell such that the sum of the numbers in each entry matches the
-> clue associated with it and that no digit is duplicated in any entry.
+> The objective of the puzzle is to insert a digit from 1 to 9 inclusive into each white cell such that the sum of the numbers in each entry matches the clue associated with it and that no digit is duplicated in any entry.
 
 — Wikipedia (http://en.wikipedia.org/wiki/Kakuro)
+
+
+## sudoku.pl
+
+Solves sudoku puzzles.
+
+> Sudoku (数独 sūdoku?, Digit-single) /suːˈdoʊkuː/, originally called Number Place, is a logic-based, combinatorial number-placement puzzle. The objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 sub-grids that compose the grid contains all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a unique solution.
