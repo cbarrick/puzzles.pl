@@ -26,7 +26,7 @@ matrix(N, M, [Row|Rows]) :-
 nonogram(RowSpecs, ColSpecs, Solution) :-
 	length(RowSpecs, NRows),
 	length(ColSpecs, NCols),
-	matrix(NCols, NRows, Solution),
+	matrix(NRows, NCols, Solution),
 	transpose(Solution, SolutionT),
 
 	% Apply the 1-demensional case to each row and column. There are 3 implementations:
